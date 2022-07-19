@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    min-height: 100vh;
+    background: aqua;
+  }
+  .container{
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.01);
+  }
+  .container h1{
+    font-size: 30px;
+    display: flex;
+    font-weight: 500;
+    color: crimson;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 3px 3px rgb(223, 126, 145);
+    margin-bottom: 5px;
+  }
+  .box{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .box .input_text{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  .input_text .to_text{
+    border-radius: 0px;
+    border-left: 1px solid #ccc;
+  }
+
+.input_text textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.control, li, .icon, .icon i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.control{
+    list-style:none;
+ 
+    padding: 12px 15px;
+}
+
+.control .row .icon{
+    width: 38%;
+  }
+  .control .row .icon i{
+    width: 50px;
+    color: #adadad;
+    font-size: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    justify-content: center;
+  }
+  .control .row .from .icon{
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+  }
+  .control .row .to .icon{
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+  }
+.control .row select{
+    color: #333;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    padding-left: 5px;
+  }
+  .control .exchange{
+    cursor: pointer;
+    color: #adadad;
+    font-size: 16px;
+  }
+  .container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: aquamarine;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px antiquewhite;
+
+  }
